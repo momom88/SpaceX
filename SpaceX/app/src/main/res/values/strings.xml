@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SpaceX</string>
+    <string name="about">about</string>
+
+    <string name="PAST">past</string>
+    <string name="past">PAST</string>
+    <string name="upcoming">UPCOMING</string>
+    <string name="by_year">YEAR</string>
+    <string name="sorting_by_rocket">Sorting by Rocket</string>
+
+    <string name="sorting_by_year">Sorting by Year</string>
+    <string name="setting">Setting</string>
+
+    <string name="mission_name">Mission name:   %1$s</string>
+    <string name="rocket_name">Rocket name:   %1$s</string>
+    <string name="rocket_type">Rocket type:   %1$s</string>
+    <string name="error_message">There is an error getting the data: \\n</string>
+</resources>

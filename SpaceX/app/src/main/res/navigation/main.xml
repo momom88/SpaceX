@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/main"
+            app:startDestination="@id/launchesFragment">
+    <fragment android:id="@+id/launchesFragment"
+              android:name="com.example.marti.spacex.ui.launcheslist.LaunchesFragment"
+              android:label="LaunchesFragment">
+        <action android:id="@+id/action_launchesFragment_to_detailFragment" app:destination="@id/detailFragment"/>
+    </fragment>
+    <fragment android:id="@+id/settingsFragment"
+              android:name="com.example.marti.spacex.ui.settings.SettingsFragment"
+              android:label="SettingsFragment">
+        <action android:id="@+id/action_settingsFragment_to_launchesFragment" app:destination="@id/launchesFragment"/>
+    </fragment>
+    <fragment android:id="@+id/detailFragment" android:name="com.example.marti.spacex.ui.detaillaunches.DetailFragment"
+              android:label="DetailFragment">
+        <action android:id="@+id/action_detailFragment_to_launchesFragment" app:destination="@id/launchesFragment"/>
+    </fragment>
+</navigation>
